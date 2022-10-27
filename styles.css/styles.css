@@ -1,115 +1,111 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
-.nav-container{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.151) ;
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+.nav-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
-.tiro-puntaje{
-    display: flex;
-    justify-content: space-around;
+.tiro-puntaje {
+  display: flex;
+  justify-content: space-around;
 }
-.puntaje-vidas-container{
-    margin-right: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-    border-radius: 1.5rem;
-    padding: 0 1.5rem;
-    
+.puntaje-vidas-container {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
+  border-radius: 1.5rem;
+  padding: 0 1.5rem;
 }
-.puntaje-vidas{
-    border: none;
-    resize: none;
-    background-color: transparent;
-    
+.puntaje-vidas {
+  border: none;
+  resize: none;
+  background-color: transparent;
 }
-.texto{
-    font-size: 1.3rem;
-    color:white;
-    font-weight: bold;
-    text-shadow: 1px 4px 4px rgba(0,0,0,0.74);
+.texto {
+  font-size: 1.3rem;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.74);
 }
-.pv-container{
-    display: flex;
+.pv-container {
+  display: flex;
 }
-.logo{
-    width: 4rem;
-    transition: all 400ms;
+.logo {
+  width: 4rem;
+  transition: all 400ms;
+  margin-right: 0.5rem;
 }
-.logo:hover{
-    transform: scale(1.03);
+.logo:hover {
+  transform: scale(1.03);
 }
-.tiro-al-blanco{
-    width: 5rem;
-    transition: all 400ms;
+.tiro-al-blanco {
+  width: 5rem;
+  transition: all 400ms;
 }
-.tiro-al-blanco:hover{
-    transform: rotate(360deg)
+.tiro-al-blanco:hover {
+  transform: rotate(360deg);
 }
-.parrafo-container{
-    margin-left: 3px;
-    display: flex;
-    align-items: flex-start;
-    
+.parrafo-container {
+  margin-left: 3px;
+  display: flex;
+  align-items: flex-start;
 }
-.parrafo{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-    background-color: #256D85;
-    padding: .5rem;
-    border-radius: 15px;
-    margin: 0 5px;
-    transition: all 400ms;
-    
+.parrafo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: #256d85;
+  padding: 0.5rem;
+  border-radius: 15px;
+  margin: 0 5px;
+  transition: all 400ms;
 }
-.parrafo:hover{
-    background-color: #06283D;
-    cursor: default;
-    transform: scale(1.06)
+.parrafo:hover {
+  background-color: #06283d;
+  cursor: default;
+  transform: scale(1.06);
 }
-.canvas-container{
-    display: flex;
-    align-items: center;
-    background-color: white;
-    justify-content: space-around;
+.canvas-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-around;
 }
-.footer-container{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0px;
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
 }
-.spotify{
-    margin-top: 5px;
-    margin-bottom: 0;
-    width: 90%;
-    position: absolute;
+.spotify {
+  margin-top: 5px;
+  margin-bottom: 0;
+  width: 90%;
+  position: absolute;
 }
-footer{
-    height: 7rem;
+footer {
+  height: 7rem;
 }
-.copy-container{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    height: 100%;
-    margin-left: .4rem;
+.copy-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 100%;
+  margin-left: 0.4rem;
 }
-.copy{
-    font-family: 'Recursive', sans-serif;
-    color: #808080;
-    font-size: 1.1rem;
+.copy {
+  font-family: "Recursive", sans-serif;
+  color: #808080;
+  font-size: 1.1rem;
 }
-.copy:hover{
-    border-bottom: solid 1px #808080;
+.copy:hover {
+  border-bottom: solid 1px #808080;
 }
