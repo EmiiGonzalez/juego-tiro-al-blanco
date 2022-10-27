@@ -95,3 +95,21 @@
     width: 90%;
     position: absolute;
 }
+footer{
+    height: 7rem;
+}
+.copy-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100%;
+    margin-left: .4rem;
+}
+.copy{
+    font-family: 'Recursive', sans-serif;
+    color: #808080;
+    font-size: 1.1rem;
+}
+.copy:hover{
+    border-bottom: solid 1px #808080;
+}

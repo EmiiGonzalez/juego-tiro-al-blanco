@@ -66,24 +66,28 @@ var pantalla = document.querySelector("canvas");
             vidas_contador = restar_vidas()
             vidas.value = vidas_contador
             if (vidas_contador == 0) {
-                if (puntaje_contador > 100){
+                if (puntaje_contador > 150){
                     alert(`Tu puntuacion total ${puntaje_contador} \nNivel de puntería: Viejo oeste`)
                     location.reload()
                 }
-                else if (puntaje_contador < 100 && puntaje_contador >= 50){
+                else if (puntaje_contador <= 150 && puntaje_contador >= 100){
                     alert(`Tu puntuacion total ${puntaje_contador} \nNivel de puntería: Sniper`)
                     location.reload()
                 }
-                else if (puntaje_contador < 50 && puntaje_contador >= 0){
-                    alert(`Tu puntuacion total ${puntaje_contador} \nNivel de puntería: Teletubbie`)
+                else if (puntaje_contador < 100 && puntaje_contador >= 50){
+                    alert(`Tu puntuacion total ${puntaje_contador} \nNivel de puntería: Cazador`)
                     location.reload()
+                }
+                else if (puntaje_contador < 50 && puntaje_contador >= 0){
+                        alert(`Tu puntuacion total ${puntaje_contador} \nNivel de puntería: Teletubbie`)
+                        location.reload()
                 }
             }
 
         }
     };
 
-    setInterval(actualizarPantalla, 1000)
+    setInterval(actualizarPantalla, 1250)
 
     pantalla.onclick = disparar;
 
