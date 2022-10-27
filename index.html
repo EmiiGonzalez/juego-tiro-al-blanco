@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego tiro al blanco</title>
+    <link rel="stylesheet" href="styles.css/styles.css">
+    <link rel="stylesheet" media="all" href="styles.css/fondo.css" />
+
+</head>
+<body class="">
+
+    <header>
+        <nav class="nav-container">
+            <div class="parrafo-container">
+                <p class="parrafo">Analistas de sistemas</p>
+            </div>
+            <div class="tiro-puntaje">
+                <div class="puntaje-vidas-container caja-p">
+                    <div class="pv-container">
+                        <p class="texto">Puntaje: </p>
+                        <textarea class="puntaje-vidas texto puntaje" cols="3" rows="1" readonly></textarea>
+                    </div>
+                    <div class="pv-container texto" >
+                        <p class="">Intentos restantes: </p>
+                        <textarea class="puntaje-vidas vidas texto" cols="3" rows="1" readonly></textarea>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/tiro al blanco.png" class="tiro-al-blanco">
+                </div>
+            </div>
+            <img src="img/logo-instituto.png" class="logo">
+        </nav>
+    </header>
+
+<main>
+    <section class="canvas-container hero">
+        <canvas width="1024" height="450" class="juego"> </canvas>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+    </section>
+</main>
+
+<script src="scripts/script.js">
+    
+</script> 
+</body>
+</html>
